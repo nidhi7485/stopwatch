@@ -3,7 +3,7 @@ const startBtn = document.getElementById("start");
 const resetBtn = document.getElementById("reset");
 const stopBtn = document.getElementById("stop");
 
-let seconds = 0;
+let seconds = -1;
 let interval = null;
 
 // eventListner
