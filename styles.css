@@ -1,0 +1,91 @@
+/* global variable */
+
+:root {
+  --primary: crimson;
+  --dark: #1f2937;
+  --darkdark: #111827;
+  --light: #f3f4f6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Fira sans" sans-serif;
+}
+body {
+  background: var(--dark);
+  color: var(--light);
+}
+.heading {
+  /* background-color: var(--darkdark); */
+  color: var(--light);
+  text-align: center;
+  width: 100%;
+  margin: 1rem auto;
+  max-width: 460px;
+  padding: 1rem 2rem;
+  font-size: 3rem;
+  text-transform: capitalize;
+  border-radius: 0.5rem;
+}
+/* start of watch */
+.watch {
+  background-color: var(--darkdark);
+  text-align: center;
+  width: 100%;
+  margin: 8rem auto;
+  max-width: 460px;
+  padding: 1rem 2rem;
+
+  border-radius: 0.5rem;
+}
+
+/* end of watch */
+
+/* css for time */
+.time {
+  font-size: 5rem;
+  font-weight: 300;
+  margin-bottom: 1rem;
+}
+
+/* end of time */
+
+/* start control */
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* end of control */
+
+/* start button */
+.controls button {
+  appearance: none;
+  background: none;
+  border: none;
+  outline: none;
+  user-select: none;
+  cursor: pointer;
+  color: var(--light);
+  background-color: var(--primary);
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  transition: 0.4s;
+}
+
+/* end of button */
+
+/* button hover */
+button:hover {
+  opacity: 0.7;
+}
+
+/* end of button hover */
+
+button:active {
+  background-color: var(--dark);
+}
