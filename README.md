@@ -1,2 +1,12 @@
 # stopwatch
-project
+stopwatch app using html , css, javascript.
+
+
+
+
+
+
+
+
+
+
